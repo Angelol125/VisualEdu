@@ -1,0 +1,116 @@
+﻿<Window x:Class="EduVisual.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Αρχικό Menu" Height="534" Width="398" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <ImageBrush ImageSource="main menu background.png" Stretch="Uniform"/>
+    </Window.Background>
+    <Grid>
+        <Button x:Name="Theory_Btn" Content="" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top" Width="80" Height="80" Click="Theory_Clicked" FontSize="25" FontFamily="Calibri" RenderTransformOrigin="0.985,1.138" UseLayoutRounding="False" IsHitTestVisible="True" ToolTip="Θεωρία">
+            <Button.OpacityMask>
+                <ImageBrush ImageSource="theoria-icon.png"/>
+            </Button.OpacityMask>
+            <Button.Background>
+                <ImageBrush ImageSource="theoria-icon.png"/>
+            </Button.Background>
+            <Button.Foreground>
+                <ImageBrush ImageSource="theoria-icon.png"/>
+            </Button.Foreground>
+            <Button.BorderBrush>
+                <SolidColorBrush Color="#FF1ABC9C" Opacity="0"/>
+            </Button.BorderBrush>
+        </Button>
+        <Button x:Name="Excersizes_Btn" Content="" HorizontalAlignment="Left" Margin="20,131,0,0" VerticalAlignment="Top" Width="65" Height="77" Click="Excersizes_Click" FontSize="25" FontFamily="Calibri" BorderBrush="{x:Null}" IsHitTestVisible="True" ToolTip="Ασκήσεις">
+            <Button.Foreground>
+                <ImageBrush ImageSource="askiseis3.png"/>
+            </Button.Foreground>
+            <Button.OpacityMask>
+                <ImageBrush ImageSource="askiseis3.png"/>
+            </Button.OpacityMask>
+            <Button.Background>
+                <ImageBrush ImageSource="askiseis3.png">
+                </ImageBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="FinalTest_Btn" Content="" HorizontalAlignment="Left" Margin="13,319.043,0,0" VerticalAlignment="Top" Width="80" Height="80" Click="FinalTest_Click" FontSize="25" FontFamily="Calibri" RenderTransformOrigin="0.985,1.138" UseLayoutRounding="False" IsHitTestVisible="True" ToolTip="Επαναληπτικό Τεστ">
+            <Button.OpacityMask>
+                <ImageBrush ImageSource="final-test-icon.png"/>
+            </Button.OpacityMask>
+            <Button.Foreground>
+                <ImageBrush ImageSource="final-test-icon.png"/>
+            </Button.Foreground>
+            <Button.Background>
+                <ImageBrush ImageSource="final-test-icon.png"/>
+            </Button.Background>
+            <Button.BorderBrush>
+                <SolidColorBrush Color="#FFB2B2B2" Opacity="0"/>
+            </Button.BorderBrush>
+        </Button>
+        <Label Content="Θεωρία" HorizontalAlignment="Left" Margin="90,50,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.192" Width="100" Height="40" FontSize="20" FontFamily="Calibri"/>
+        <Label Content="Ασκήσεις" HorizontalAlignment="Left" Margin="90,150,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.192" Width="100" Height="40" FontSize="20" FontFamily="Calibri"/>
+        <Label Content="Τεστ" HorizontalAlignment="Left" Margin="90,245,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.192" Width="100" Height="40" FontSize="20" FontFamily="Calibri"/>
+        <Label Content="Επαναληπτικό Τεστ" HorizontalAlignment="Left" Margin="90,340,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.192" Width="170" Height="40" FontSize="20" FontFamily="Calibri"/>
+        <Button x:Name="FinalTest_Btn_Copy" Content="" HorizontalAlignment="Left" Margin="13,223.043,0,0" VerticalAlignment="Top" Width="80" Height="80" Click="FinalTest_Click" FontSize="25" FontFamily="Calibri" RenderTransformOrigin="0.985,1.138" UseLayoutRounding="False" IsHitTestVisible="True" ToolTip="Επαναληπτικό Τεστ">
+            <Button.OpacityMask>
+                <ImageBrush ImageSource="test.png">
+                    <ImageBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5" ScaleX="1.15" ScaleY="1.15"/>
+                            <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                            <RotateTransform CenterY="0.5" CenterX="0.5"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </Button.OpacityMask>
+            <Button.Foreground>
+                <ImageBrush ImageSource="test.png">
+                    <ImageBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5" ScaleX="1.15" ScaleY="1.15"/>
+                            <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                            <RotateTransform CenterY="0.5" CenterX="0.5"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </Button.Foreground>
+            <Button.Background>
+                <ImageBrush ImageSource="test.png">
+                    <ImageBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5" ScaleX="1.15" ScaleY="1.15"/>
+                            <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                            <RotateTransform CenterY="0.5" CenterX="0.5"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </Button.Background>
+            <Button.BorderBrush>
+                <SolidColorBrush Color="#FFB2B2B2" Opacity="0"/>
+            </Button.BorderBrush>
+        </Button>
+        <Image HorizontalAlignment="Left" Height="30" Margin="13,0,0,0" VerticalAlignment="Top" Width="30" Source="sign up.png">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="sign up.png"/>
+            </Image.OpacityMask>
+        </Image>
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="48,0,0,0" TextWrapping="Wrap" Text="Όνομα Χρήστη" VerticalAlignment="Top" Width="130" VerticalContentAlignment="Center" FontFamily="Calibri" FontSize="16"/>
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="183,0,0,0" TextWrapping="Wrap" Text="Κωδικός" VerticalAlignment="Top" Width="130" VerticalContentAlignment="Center" FontFamily="Calibri" FontSize="16"/>
+        <Button x:Name="Theory_Btn_Copy" Content="" HorizontalAlignment="Left" Margin="352,0,0,0" VerticalAlignment="Top" Width="30" Height="30" Click="Theory_Clicked" FontSize="25" FontFamily="Calibri" RenderTransformOrigin="0.985,1.138" UseLayoutRounding="False" IsHitTestVisible="True" ToolTip="Θεωρία">
+            <Button.OpacityMask>
+                <ImageBrush ImageSource="help-icon.png"/>
+            </Button.OpacityMask>
+            <Button.Background>
+                <ImageBrush ImageSource="help-icon.png"/>
+            </Button.Background>
+            <Button.Foreground>
+                <ImageBrush ImageSource="help-icon.png"/>
+            </Button.Foreground>
+            <Button.BorderBrush>
+                <SolidColorBrush Color="#FF1ABC9C" Opacity="0"/>
+            </Button.BorderBrush>
+        </Button>
+    </Grid>
+</Window>

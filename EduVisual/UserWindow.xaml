@@ -1,0 +1,15 @@
+﻿<Window x:Class="EduVisual.UserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Menu Εισόδου/Δημιουργίας Χρήστη" Height="534" Width="398" ResizeMode="NoResize">
+    <Window.Background>
+        <ImageBrush ImageSource="main menu background.png" Stretch="Uniform"/>
+    </Window.Background>
+    <Grid>
+        <Label Content="Όνομα Χρήστη:" HorizontalAlignment="Left" Margin="20,55,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.192" Width="170" Height="40" FontSize="20" FontFamily="Calibri" HorizontalContentAlignment="Center"/>
+        <Label Content="Κωδικός Χρήστη:" HorizontalAlignment="Left" Margin="20,150,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.192" Width="170" Height="40" FontSize="20" FontFamily="Calibri" HorizontalContentAlignment="Center"/>
+        <TextBox HorizontalAlignment="Left" Height="40" Margin="195,59,0,0" TextWrapping="Wrap" Text="Όνομα Χρήστη" VerticalAlignment="Top" Width="170" FontFamily="Calibri" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox HorizontalAlignment="Left" Height="40" Margin="195,150,0,0" TextWrapping="Wrap" Text="Κωδικός Χρήστη" VerticalAlignment="Top" Width="170" FontFamily="Calibri" FontSize="20" RenderTransformOrigin="0.592,3.306" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="Αν δεν έχετε λογαριασμό πληκτρολογίστε όνομακαι κωδικό χρήστη και εγγραφείτε αυτόματα" HorizontalAlignment="Left" Margin="20,245,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.192" Width="345" Height="100" FontSize="20" FontFamily="Calibri" MaxWidth="345" MaxHeight="100"/>
+    </Grid>
+</Window>
